@@ -4,4 +4,4 @@ description: RKE2 Cluster template for DO
 version: 0.3.1
 annotations:
   catalog.cattle.io/type: cluster-template
-  catalog.cattle.io/namespace: fleet-default
+  catalog.cattle.io/namespace: dekel-ns

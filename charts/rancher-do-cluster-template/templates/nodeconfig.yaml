@@ -2,7 +2,7 @@ apiVersion: rke-machine-config.cattle.io/v1
 kind: DigitaloceanConfig
 metadata:
   name: {{ .Values.cluster.name }}-nodes
-  namespace: fleet-default
+  namespace: dekel-ns
 region: fra1
 size: {{ .Values.nodepool.size }}
 sshUser: root
